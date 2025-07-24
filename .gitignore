@@ -1,0 +1,45 @@
+# Ignorar directorios de módulos y logs
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+.pnpm-store/
+
+# Ignorar variables de entorno
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Ignorar archivos de registro (logs)
+logs/
+*.log
+
+# Ignorar directorios de compilación/transpilación (si usas TypeScript, Babel, etc.)
+dist/
+build/
+out/
+es/
+lib/
+tmp/
+
+# Ignorar archivos de caché
+.cache/
+.eslintcache
+.parcel-cache/
+
+# Ignorar dependencias opcionales
+optional-dependencies/
+
+# Ignorar archivos de pruebas (si son generados)
+coverage/
+.nyc_output/
+
+# Ignorar archivos de sistema operativo
+.DS_Store      # macOS
+Thumbs.db      # Windows
+ehthumbs.db    # Windows
+.Spotlight-V100 # macOS
+.Trashes       # macOS
